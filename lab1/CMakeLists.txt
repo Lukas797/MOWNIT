@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.5)
+project(zadanie1)
+add_compile_options("-Wall")
+add_executable(main main.c)
+target_link_libraries(main gsl)
+target_link_libraries(main gslcblas)
